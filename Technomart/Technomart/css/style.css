@@ -1,0 +1,144 @@
+@font-face {
+  font-family: "PT Sans";
+  font-weight: 400;
+  font-style: normal;
+  src: local("PT Sans"), url("../fonts/ptsans.woff2") format("woff2"),
+    url("../fonts/ptsans.woff") format("woff");
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-weight: 700;
+  font-style: normal;
+  src: local("PT Sans"), url("../fonts/ptsansbold.woff2") format("woff2"),
+    url("../fonts/ptsansbold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Cuprum";
+  font-weight: 400;
+  font-style: normal;
+  src: local("Cuprum"), url("../fonts/cuprum.woff2") format("woff2"),
+    url("../fonts/cuprum.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Cuprum";
+  font-weight: 700;
+  font-style: normal;
+  src: local("Cuprum"), url("../fonts/cuprumbold.woff2") format("woff2"),
+    url("../fonts/cuprumbold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Cuprum";
+  font-weight: 700;
+  font-style: italic;
+  src: local("Cuprum"), url("../fonts/cuprumbolditalic.woff2") format("woff2"),
+    url("../fonts/cuprumbolditalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Cuprum";
+  font-weight: 400;
+  font-style: italic;
+  src: local("Cuprum"), url("../fonts/cuprumitalic.woff2") format("woff2"),
+    url("../fonts/cuprumitalic.woff") format("woff");
+}
+
+:root {
+  --basic-black: #000000;
+  --basic-red: #ee3643;
+  --basic-green: #63a63e;
+  --basic-grey: #3d546f;
+  --basic-greylight: #c5c5c5;
+  --basic-backgorund: #f1f5f7;
+  --basic-white: #ffffff;
+  --basic-darkblue: #293449;
+
+  --special-yellow: #ffbf47;
+  --special-blue: #3bbce3;
+  --special-lilac: #dc91d8;
+  --special-greenlight: #8ed78f;
+  --special-yellowlight: #ffd180;
+
+  --success-green: #5fbb2d;
+  --warning-yellow: #ffbf47;
+  --error-red: #ba2732;
+}
+
+/*Clobal*/
+
+body {
+  min-width: 1200px;
+  margin: 0;
+  padding: 0;
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  color: var(--basic-white);
+  background-color: var(--basic-black);
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*Header*/
+
+.main-header {
+  background-color: var(--basic-backgorund);
+}
+
+.top-main-header {
+  background-color: var(--basic-darkblue);
+}
+
+.main-header-logo img {
+  padding: 12px 56px 17px;
+  background-color: var(--basic-red);
+  box-shadow: inset 0 -5px rgba(0, 0, 0, 0.24);
+}
+
+.extra-nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.extra-nav-order {
+  padding: 9px 16px;
+  background-color: var(--basic-green);
+}
+
+.extra-nav-order a {
+  color: var(--basic-white);
+}
+
+.site-description {
+  color: var(--basic-red);
+  font-style: italic;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.header-phone {
+  width: 264px;
+  height: 39px;
+  border: 3px solid #FFFFFF;
+}
+
+.header-phone a {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 30px;
+  color: var(--basic-red);
+}
