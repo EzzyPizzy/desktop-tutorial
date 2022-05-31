@@ -133,7 +133,7 @@ img {
 .header-phone {
   width: 264px;
   height: 39px;
-  border: 3px solid #FFFFFF;
+  border: 3px solid var(--basic-white);
 }
 
 .header-phone a {
@@ -141,4 +141,27 @@ img {
   font-size: 21px;
   line-height: 30px;
   color: var(--basic-red);
+}
+
+.header-address {
+  font-size: 14px;
+  line-height: 24px;
+  color:#32425C;
+}
+
+.header-autorization {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  
+}
+
+.header-autorization a {
+  color:var(--basic-black);
+  line-height: 21px;
+  font-size: 21px;
+}
+
+.header-autorization li {
+  background-color: var(--basic-white);
 }
